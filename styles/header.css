@@ -1,0 +1,39 @@
+.header {
+}
+
+.header__container {
+}
+
+.header__navigation {
+    width: 100%;
+    border-bottom: 1px solid var(--second-color);
+
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Gilroy-Bold ☞';
+    
+}
+
+.header__item {
+    color: var( --second-color);
+    transition: color 0.25s ease-in;
+    padding: 27px 0;
+}
+
+.header__item:not(:last-child) {
+    padding-right: 20px;
+}
+
+.header__item:hover {
+    color: var( --first-color);
+    transition: color 0.25s ease-in;
+}
+
+.navigation__link {
+    white-space: nowrap;
+}
+
+

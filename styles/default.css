@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Gilroy-Bold ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Bold ☞'), url(../fonts/Gilroy-Bold.woff) format('woff');
+}
+    
+@font-face {
+    font-family: 'Gilroy-Medium ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Medium ☞'), url(../fonts/Gilroy-Medium.woff) format('woff');
+}
+
+
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Gilroy-Medium ☞', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: var(--main-bg-color);
+    color: var(--first-color);
+}
+
+h1, h2 {
+    font-family: 'Gilroy-Medium ☞', serif;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+button, input {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 39px;
+}

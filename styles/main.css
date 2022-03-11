@@ -1,0 +1,155 @@
+/* .main__author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 31px;
+}
+
+
+.main__author_name {
+    font-family: 'Gilroy-Bold ☞';
+    font-size: 47.3392px;
+    line-height: 59px;
+    width: min-content;
+}
+
+.main__author_about {
+    display: flex;
+    flex-direction: column;
+    line-height: 22px;
+}
+
+.main__author_position {
+}
+
+.main__autor_info {
+}
+
+.main__lang {
+    transform: rotate(180deg);
+    display: flex;
+    font-family: 'Gilroy-Bold ☞';
+    font-size: 16px;
+    line-height: 20px;
+    writing-mode:vertical-rl;
+}
+
+.main__avatar {
+    width: 100%;
+    max-height: 387px;
+    object-fit:cover;
+    object-position: 0 8%;
+    margin-bottom: 104px;
+}
+
+.main__information {
+    background-color: var(--second-bg-color:);
+    display: flex;
+}
+
+.main__bio {
+    
+} */
+.main {
+
+}
+
+.author {
+
+}
+
+.main__author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.main__author_name {
+    font-family: 'Gilroy-Bold ☞';
+    font-size: 47.3392px;
+    line-height: 59px;
+    width: min-content;
+}
+
+
+.main__author_about {
+
+}
+
+.main__author_position {
+
+}
+
+.main__author_info {
+
+}
+
+.main__lang {
+    display: flex;
+    transform: rotate(-180deg);
+    font-family: 'Gilroy-Bold ☞';
+    font-size: 16px;
+    line-height: 20px;
+    writing-mode:vertical-rl;
+    color: var(--second-color);
+    transition: color 0.25s ease-in;
+}
+
+.main__lang_ru:hover,
+.main__lang_ru:active {
+    color: var( --first-color);
+    transition: color 0.25s ease-in;
+}
+
+.main__leng_verticalline {
+    color: var(--second-color);
+}
+
+.main__lang_en:hover,
+.main__lang_en:active {
+    color: var( --first-color);
+    transition: color 0.25s ease-in;
+}
+
+.avatar {
+
+}
+
+.container {
+
+}
+
+.main__avatar {
+    width: 100%;
+    max-height: 387px;
+    object-fit:cover;
+    object-position: 0 8%;
+    margin-bottom: 104px;
+}
+
+.info {
+    background-color: var(--second-bg-color);
+}
+
+.main__information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 107px;
+    max-width: 560px;
+}
+
+.main__about {
+    font-family: 'Gilroy-Bold ☞';
+    font-size: 34px;
+    line-height: 42px;
+    margin-bottom: 18px;
+}
+
+.main__bio {
+    text-align: center;
+    padding-bottom: 40px;
+}
